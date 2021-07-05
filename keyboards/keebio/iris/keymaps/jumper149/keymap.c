@@ -44,7 +44,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //┌────────┬────────┬────────┬────────┬────────┬────────┐                          ┌────────┬────────┬────────┬────────┬────────┬────────┐
      KC_F12,  KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,                              KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
-     _______, KC_MUTE, KC_VOLU, XXXXXXX, XXXXXXX, XXXXXXX,                            XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_LBRC, KC_RBRC,
+     _______, KC_MUTE, KC_VOLU, XXXXXXX, XXXXXXX, XXXXXXX,                            KC_HOME, KC_PGDN, KC_PGUP, KC_END,  KC_LBRC, KC_RBRC,
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
      KC_LSFT, KC_BRID, KC_VOLD, KC_BRIU, XXXXXXX, XXXXXXX,                            KC_QUOT, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, XXXXXXX,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
@@ -60,9 +60,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
      RGB_TOG, RGB_HUI, RGB_HUD, XXXXXXX, XXXXXXX, XXXXXXX,                            XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
-     RGB_MOD, RGB_SAI, RGB_SAD, XXXXXXX, KC_PGUP, KC_UNDS,                            KC_EQL,  KC_HOME, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+     RGB_MOD, RGB_SAI, RGB_SAD, XXXXXXX, XXXXXXX, KC_UNDS,                            KC_EQL,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     XXXXXXX, RGB_VAI, RGB_VAD, XXXXXXX, KC_PGDN, KC_MINS, KC_LPRN,          XXXXXXX, KC_PLUS, KC_END,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+     XXXXXXX, RGB_VAI, RGB_VAD, XXXXXXX, XXXXXXX, KC_MINS, KC_LPRN,          XXXXXXX, KC_PLUS, XXXXXXX,  XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
                                     _______, _______, _______,                   XXXXXXX, _______, _______
                                 // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
